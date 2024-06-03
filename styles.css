@@ -85,22 +85,22 @@ img {
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-bottom: 20px;
 }
 
 section {
-    text-align: center;
-    font-size: 30px;
-    padding-bottom: 40px;
-    padding-top: 40px;
-    cursor: pointer;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  cursor: pointer;
 }
 
 section:hover {
-    background-color: #34467a;
-    transition: 0.8s ease;
+  background-color: #34467a;
+  transition: 0.8s ease;
 }
 
 @keyframes fade {
@@ -110,6 +110,27 @@ section:hover {
   to {
     opacity: 1;
   }
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20% 0 20%;
+}
+
+.links > h1 {
+  text-align: center;
+}
+
+.page {
+  font-size: 20px;
+}
+
+.page-image {
+  opacity: 1;
+  width: min-content;
+  height: 400px;
+  margin-inline: auto;
 }
 
 @media (width <= 750px) {
