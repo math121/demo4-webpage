@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tools</h1>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="slide fade">
+          <div class="slide-number">1 / 2</div>
+          <img src="/images/reactjs.jpg" alt="Reactjs" />
+          <div class="centered">
+            <h1>React</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              officia ex qui nostrum veniam in cumque, itaque consectetur maxime
+              aliquam dicta odit consequatur vero nisi labore deleniti commodi
+              doloribus iste!
+            </p>
+          </div>
+        </div>
+
+        <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+
+      <div class="circle-dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </main>
+  </body>
+</html>
